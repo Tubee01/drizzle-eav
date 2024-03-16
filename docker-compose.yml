@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  database:
+    image: postgres
+    environment:
+      POSTGRES_DB: eav
+      POSTGRES_USER: eav
+      POSTGRES_PASSWORD: eav
+    ports:
+      - "5432:5432"
